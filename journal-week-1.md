@@ -15,4 +15,6 @@
  
  <img src="http://media.giphy.com/media/DdQaV2l2ltSjC/giphy.gif"</>
  
+ (Also, I won't give up because I need a job in order to get a cat.)
+ 
  
