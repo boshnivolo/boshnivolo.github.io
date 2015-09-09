@@ -1,93 +1,18 @@
 ## Front End Lecture
 ### _Week 1_
 
-#### <strong>Monday</strong> 
-
-Wonderful World of JavaScript
-
-* Perform operations with the values you can represent. 
-
-* Expressions is anything you can value. Simplest expression is null. Result of an operation. 
-
-* Function Invocation: leave out spaces. Spaces are for humans.
-
-* Concatenation: the operation of joining two strings together. “+”
-
-* Javascript will remove unlabeled functions in order to conserve memory
-
-* var label = “one”; (var label is assigned single equals string o n e)
-
-* operators: =, +, ==
-
-* operands: one on the left, one on the right
-
-What are the 4 primitive types?
-1. Null
-  * Intentionally empties a value 
-2. Boolean (“true” or “false”)
-  * Zero is always false
-  * All numbers that are NOT zero are always true
-  * Null is always false
-3. Number
-  * Must be Camel-cased
-4. Strings (delimiters needed to differentiate words versus commands)
-
-REPL - READ, EVALUATE, PRINT, LOOP
-
-Single quotes, Double quotes, Curly quotes
-
-Single quotes requires a backslash to cancel out special characters in cases of apostrophe
-
-Boolean text coercion takes a string and coerces it to be either true or false
-
-If the length of the string is zero it’s false 
-
-What are the 2 container types?
-* Array
-   *List —>(list[1, 2, 3])
-* Items
-
-What 3 things does a function have?
-* Input
-* Output
-* Side-Effects
-
-How can I execute a JS file?
-
-What is Control Flow?
-
-How do I alter it?
-
-How can I draw it?
-
-What is Pair Programming?
-
-What is Text-Driven Development?
-
-How is Programming like the Martial Arts? 
-* Build muscle memory through practice. Like kicking practice in Tae Kwon Doe. Work it out in front of other people where everybody can see you so they can see what you’re doing wrong. The “dojo”.
-
-
-
-
-Coding Dogo
-
-TDD: Red Green Refactor
-
-Pair Programming:
-
-Pilot-Copilot
-
-Ping-Pong
-
-Baby Steps
-
-Etiquette:
-
-Be good passengers: STFU
-
-IF not RGR: BUZZ!
-
-Phone a Friend
-
-Poll the Audience
+ <strong>"It's kind of like drowning kittens. You guys are like kittens and we're throwing you into the water, but you'll learn how to swim soon." - The Front End Instructors</strong>
+ 
+ 72 hours. That's approximately the amount of time I've spent coding in the first week here at the Iron Yard. Compared to the 25 hours of sleep I've had in the same week, 72 hours sounds like a lot. It sounds daunting even. And yet, day after day I've struggled with getting the bare minimum down and running tests in JavaScript that work, let alone pass. 
+ 
+ It's...frustrating, to say the least. 
+ 
+ But at the same time, I'm amazed at what I HAVE managed to learn too. I learned how to use 'if, else' statements, set up 'mocha chai', create tests, and so much more! It might not seem like much now, but author Malcolm Gladwell once wrote that it takes roughly ten thousand hours of practice to achieve mastery in a field. Ten thousand! Suddenly, those 72 hours don't seem so big. 
+ 
+ So whenever I feel completely lost, and I'm looking at JavaScript like it's Russian, I'll take a moment to remember that 72 hours is less than 1% of 10,000. It'll still be difficult, and I'll still get frustrated, but I won't stop working towards achieving mastery.
+ 
+ I'll learn how to swim. 
+ 
+ <img src="http://media.giphy.com/media/DdQaV2l2ltSjC/giphy.gif"</>
+ 
+ 
