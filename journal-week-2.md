@@ -1,4 +1,4 @@
-Week 3. First off: woo-hoo!
+Made it to Week 3! First off: woo-hoo!
 
 This week has challenged my understanding of how to turn English into JavaScript. And while they don't seem to have that option on Google translate, I've been able to piece together the general structure of JavaScript syntax through Mozilla references, past assignments, and pure dumb luck. 
 
