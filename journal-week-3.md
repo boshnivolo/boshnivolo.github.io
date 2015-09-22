@@ -6,3 +6,5 @@ One thing I am certain about though is that it will be challenging. With each ne
 
 But I keep moving. I have started incorporating more research into my work flow. And luckily my fellow Future Front-End Engineers (try to say that five times fast) often share their resources via `slack` as well! I feel like together we're definitely growing day by day. 
 
+I really enjoy how we're getting into code that can translate into applicable job skills. It's definitely helping me visualize turning this into a career a little bit more. 
+
