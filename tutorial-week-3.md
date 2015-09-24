@@ -8,7 +8,20 @@ Well, before you jump ship and fall into a downward spiral of self-pity and Hot 
 
 Yes, User Stories, those code comments crammed into JavaScript files across the world. 
 
+But those can be intimidating all on their own, right? Wrong. All you need is a smurf!
 
+```
+"A smurf can smurf so a smurf can smurf better."
+```
+
+Though this quote may sound like nonsense, there's a hidden gem in all that noise. 
+
+
+
+##### Example
+
+```
+`// A user can type into a text area and the site will log their input.
 
 ##### Footnotes
 
