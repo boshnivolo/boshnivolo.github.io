@@ -12,3 +12,6 @@ Something I'd like to learn more about is how to make fun little animations on w
 
 But first I need to improve my limited JavaScript skills....
 
+<img src="https://31.media.tumblr.com/bafffbe0cf23af4eaa3ccb173548ff7b/tumblr_nufyx5Zu1G1uo7ripo1_400.gif"/>
+And this is me trying to make sense of our homework.
+
