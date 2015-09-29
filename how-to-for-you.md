@@ -16,7 +16,7 @@ Though not always necessary, images can help your audience have a visual referen
 
 For example: 
 ```
-var standOut = (``` + ' ' + ```)
+node-sass --output-style expanded --output scss/ css/ *.css
 ```
 This helps your readers make the distinction between your explaination and the code they may need to input.
 
