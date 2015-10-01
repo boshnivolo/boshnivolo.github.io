@@ -16,4 +16,8 @@ Especially when we're dealing with challenges in life, it's important to take ev
 
 :v:
 
+<img src="http://www.catgifpage.com/gifs/266.gif"/>
+
+Me when I look at Chessboard.
+
 
