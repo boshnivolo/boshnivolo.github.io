@@ -20,7 +20,7 @@ node-sass --output-style expanded --output scss/ css/ *.css
 ```
 This helps your readers make the distinction between your explaination and the code they may need to input.
 
-<h4>STEP 5:</h4> PROOFREAD! Sometimes you can get bogged down with making sure your tutorial is thorough that you end up forgetting one of the most important steps to any writing: proofreading. 
+<h4>STEP 5:</h4> PROOFREAD! Sometimes you can get bogged down with making sure your tutorial is thorough that you end up forgetting one of the most important steps to any writing: proofreading. This will ensure that your instructions are interpretted correctly, making your tutorial a success!
 
 (Also, small note to Kelly, who has to read this: I don't think I should teach anybody anything because every time I do you end up with thousands of commits from node_modules and sudo disasters. Just saying....)
 
