@@ -1,0 +1,25 @@
+{
+  "name": "boshnivolo.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boshnivolo/boshnivolo.github.io.git"
+  },
+  "author": "Jasmine Baik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boshnivolo/boshnivolo.github.io/issues"
+  },
+  "homepage": "https://github.com/boshnivolo/boshnivolo.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3"
+  }
+}
