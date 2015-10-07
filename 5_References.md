@@ -4,4 +4,5 @@
 
 [Music to yak-shave to](https://www.youtube.com/watch?v=NrI-UBIB8Jk&list=PLpRjkOHBe_TgmznCle__jWDhoV4aFgCjw)
 
+[Things to gauge how much JavaScript you know of](http://elijahmanor.com/front-end-web-dev-jokes/)
 
