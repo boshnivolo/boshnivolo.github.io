@@ -21,7 +21,7 @@ I used things like `math.floor` & `%` to create a shorthand for my moves, which 
 
 <img src="http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/10/anigif_enhanced-buzz-11864-1381846346-0.gif" />
 
-I didn't get to go to the rooftop as much last week either due to Hurrican Joaquin making his appearance in Durham. BUT I did receive a couple of indoor signs instead. 
+I didn't get to go to the rooftop as much last week either due to Hurricane Joaquin making his appearance in Durham. BUT I did receive a couple of indoor signs instead. 
 
 #### Tennis ball left beside my car.
 
