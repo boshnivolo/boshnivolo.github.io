@@ -1,6 +1,6 @@
 {
   "name": "boshnivolo.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "package.json",
   "scripts": {
@@ -20,6 +20,15 @@
     "bower": "^1.5.3",
     "browser-sync": "^2.9.8",
     "gulp": "^3.9.0",
+    "node-sass": "^3.3.3"
+  },
+  "start": {
+    "browser-sync": "src/index.html"
+  },
+  "dependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "browser-sync": "^2.9.8",
     "node-sass": "^3.3.3"
   }
 }

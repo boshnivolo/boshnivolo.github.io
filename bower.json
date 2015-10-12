@@ -1,0 +1,23 @@
+{
+  "name": "boshnivolo.github.io",
+  "version": "0.0.2",
+  "homepage": "https://github.com/boshnivolo/boshnivolo.github.io",
+  "authors": [
+    "Jasmine Baik <boshnivolo@gmail.com>"
+  ],
+  "description": "",
+  "main": "bower.json",
+  "moduleType": [],
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
