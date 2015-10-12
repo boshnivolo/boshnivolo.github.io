@@ -55,10 +55,103 @@ Set it up with some classes describing the colors so you can change it in CSS la
 
 Shit made. LOCK IT. Get into your CSS and set the `position`! 
 
+```
+table {
+  width:100%;
+  border-collapse: collapse;
+}
+.numbers {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.board {
+    border-collapse:collapse;
+    padding:5px;
+}
+.wR::before {
+  content: "\2656";
+  position: absolute;
+}
+.wN::before {
+  content: "\2658";
+  position: absolute;
+}
+.wB::before {
+  content: "\2657";
+  position: absolute;
+}
+.wQ::before {
+  content: "\2654";
+  position: absolute;
+}
+.wK::before {
+  content: "\2655";
+  position: absolute;
+}
+.wP::before {
+  content: "\2659";
+  position: absolute;
+}
+.bR::before {
+  content: "\265c";
+  position: absolute;
+}
+.bN::before {
+  content: "\265e";
+  position: absolute;
+}
+.bB::before {
+  content: "\265d";
+  position: absolute;
+}
+.bK::before {
+  content: "\265b";
+  position: absolute;
+}
+.bQ::before {
+  content: "\265a";
+  position: absolute;
+}
+.bP::before {
+  content: "\265f";
+  position: absolute;
+}
+```
+
+Making the position absolute prevents the squares from trying to stretch out later. 
+
 ### Step 3
 
-Shit locked. ADD SOME SPACE. Throw some `padding` in there so your board's got some breathing room. Don't apply it to the `<td>`s though. They need to be buddy-buddy with their fellow cells.
+Shit locked. ADD SOME SPACE. Throw some `padding` in there so your board's got some breathing room. 
+
+```
+td {
+    border:0.1em solid darkgray;
+    width:10%;
+    padding-bottom: 10%;
+}
+.aqua {
+ background-color: aquamarine;
+ font-size: 5vw;
+ padding-left: 1vw;
+}
+.sky {
+ background-color: lightskyblue;
+ font-size: 5vw;
+ padding-left: 1vw;
+} 
+```
+
+This keeps them from squishing as well.
 
 ### Step 4
 
 Shit spaced. CHECK YOUR MARGINS BRO. `margin`s help keep things in shape. 
+
+```
+main.container {
+  margin: 0 10%;
+}
+```
+
+Setting the margins to 0 10% help to make the whole board resize itself according to the viewport. 
