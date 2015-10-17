@@ -17,6 +17,15 @@ _**Ingredients**_
 
 NEXT...GET YOU SOME SASS ON THAT.
 
+Say you want 3 columns...
+
+```
+width: 100% * (1/3)
+```
+BAM.
+
+You can use `(1/*number*)`, `(2/*number*)`, etc to make them fit nicely onto your grid. 
+
 Put those class names to work! Be as specific as possible! 
 
 FINALLY...`float`!!!!
