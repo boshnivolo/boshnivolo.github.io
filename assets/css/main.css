@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Europe Underground;
+  src: url(../fonts/EuropeUnderground_light.ttf);
+}
+
+@font-face {
+  font-family: Europe Underground Bold;
+  src: url(../fonts/EuropeUnderground_black.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: #fffefb;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  font-family: Europe Underground;
+  font-size: 2.6em;
+  padding-left: 15px;
+  margin: 12px 0 6px 0;
+}
+
+nav {
+  width: 100%;
+  background-color: #8eebcc;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+nav > a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 1.5em;
+  color: #fefefe;
+  width: 19.7%;
+  display: inline-block;
+  margin-top: -4px;
+  margin-bottom: -2px;
+  transition: background-color 0.2s ease;
+}
+
+nav > a:last-child {
+  float: right;
+}
+
+nav > a:hover {
+  color: #8eebcc;
+  background-color: white;
+}
+
+main.container {
+  width: 100%;
+}
+
+footer {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #8eebcc;
+  background: linear-gradient(#9df2d6, #8eebcc);
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+section.footer-links {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color: white;
+  width: 24.2%;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-links > a:hover {
+  color: #fff6fd;
+}
+
+.portfolio-cats {
+  width: 25%;
+}
+
+.portfolio-cats > a {
+  display: inline-block;
+  width: 100%;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+
+.fade-in {
+    opacity:0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+    animation-delay: .1s;
+}
+
+/*SRC: https://coderwall.com/p/inx9gw/smooth-sexy-page-load-css3-animations*/
