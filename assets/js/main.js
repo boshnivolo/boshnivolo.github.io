@@ -1,7 +1,3 @@
-$(document).ready(function(){
-    $(".container").animate({left: 0});
-});
-
 var jazzPort = angular.module('JazzPortfolio', ['ngRoute'], function($routeProvider){
     $routeProvider
     .when('/', {

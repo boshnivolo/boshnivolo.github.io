@@ -8,95 +8,229 @@
   src: url(../fonts/EuropeUnderground_black.ttf);
 }
 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+/*Hides scrollbar*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
   margin: 0;
   background-color: #fffefb;
 }
 
+a {
+  text-decoration: none;
+}
+
+/*BEGIN Header styling */
+
 header {
   width: 100%;
+  margin-top: -2px;
+  position: fixed;
+  z-index: 1;
 }
 
 h1 {
   font-family: Europe Underground;
-  font-size: 2.6em;
+  font-size: 1.9em;
   padding-left: 15px;
-  margin: 12px 0 6px 0;
+  margin: 9px 12px 4px 0;
+  display: inline-block;
+  letter-spacing: .9px;
+}
+
+h1 > a {
+  color: #53565a;
+  transition: color 0.1s ease;
+}
+
+h1 > a:hover {
+  color: white;
 }
 
 nav {
   width: 100%;
-  background-color: #8eebcc;
+  background-color: #7fd3ee;
   padding-top: 4px;
   padding-bottom: 2px;
+  margin-top: 1px;
 }
 
 nav > a {
-  text-decoration: none;
   text-align: center;
-  font-family: Gill Sans;
-  font-size: 1.5em;
+  font-family: Lato;
+  font-size: 1.3em;
+  font-weight: 300;
   color: #fefefe;
-  width: 19.7%;
+  width: 12%;
   display: inline-block;
-  margin-top: -4px;
+  margin-top: -3px;
   margin-bottom: -2px;
   transition: background-color 0.2s ease;
-}
-
-nav > a:last-child {
+  padding-top: 11px;
+  padding-bottom: 14px;
   float: right;
 }
 
 nav > a:hover {
-  color: #8eebcc;
+  color: #7fd3ee;
   background-color: white;
 }
+
+/*END Header styling*/
 
 main.container {
   width: 100%;
 }
 
-footer {
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #8eebcc;
-  background: linear-gradient(#9df2d6, #8eebcc);
-  padding-top: 5px;
-  padding-bottom: 1px;
+/*BEGIN About Me styling*/
+
+section.about-me {
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 130px;
 }
 
-section.footer-links {
+img {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+}
+
+ul {
   width: 50%;
-  margin-left: 25%;
+  display: block;
+  float: right;
+  list-style: none;
+  margin-top: 160px;
+  margin-right: 9%;
+  padding-left: 0px;
 }
 
-.footer-links > a {
-  text-decoration: none;
-  color: white;
-  width: 24.2%;
+li {
+  font-size: 2.1em;
+  font-family: Gill Sans;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+/*END About Me styling*/
+
+/*BEGIN Portfolio styling*/
+
+.port-container {
   display: inline-block;
-  text-align: center;
-}
-
-.footer-links > a:hover {
-  color: #fff6fd;
 }
 
 .portfolio-cats {
-  width: 25%;
+  width: 20%;
+  display: inline-block;
+  margin: 6% 0px 0px 5%;
 }
 
 .portfolio-cats > a {
-  display: inline-block;
   width: 100%;
+  display: inline-block;
+  color: #53565a;
+  font-size: 1em;
+  font-family: Lato;
+  padding: 10px 0px;
+  transition: color 0.2s ease;
 }
 
+.portfolio-cats > a:hover {
+  color: #7fd3ee;
+}
+
+.port-items {
+  width: 65%;
+  height: 600px;
+  overflow: scroll;
+  display: inline-block;
+  float: right;
+  margin: 5% 100px 0px 0px;
+}
+
+.port-item {
+  width: 24%;
+}
+
+/*END Portfolio styling*/
+
+/*BEGIN Resume styling*/
+
+.resume-pdf {
+  width: 80%;
+  margin: 48px 0px 0px 10%;
+}
+
+/*END Resume styling*/
+
+/*BEGIN Contact Form*/
+
+h2 {
+  margin: 0px 0px;
+  padding-top: 65px;
+  font-size: 2em;
+  font-family: Gill Sans;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact-icons {
+  width: 54%;
+  margin-left: 23%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.contact-icons > a {
+  text-decoration: none;
+  color: #7fd3ee;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 1.5% ;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid white;
+  transition: transform .3s ease;
+}
+
+.contact-icons > a:hover {
+  border: 1px solid #7fd3ee;
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+a > i {
+  padding: 26px 0px 0px 2px;
+}
+
+.direct-con {
+  margin-top: -62px;
+}
+
+/*END Contact Form*/
+
+/*Fade-In animation*/
 
 @keyframes fadeIn {
-  from { opacity: 0; } to { opacity: 1; }
+  from {
+    opacity: 0;
+    } to {
+      opacity: 1;
+    }
 }
 
 .fade-in {
