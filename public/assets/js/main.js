@@ -17,7 +17,8 @@ var jazzPort = angular.module('JazzPortfolio', ['ngRoute'], function($routeProvi
     })
 
     .when('/contact', {
-      templateUrl: 'views/contact.html'
+      templateUrl: 'views/contact.html',
+      controller: 'submitFormController'
     })
 
     .otherwise('/', {
