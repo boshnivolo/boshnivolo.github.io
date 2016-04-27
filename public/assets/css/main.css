@@ -1,0 +1,305 @@
+@font-face {
+  font-family: Europe Underground;
+  src: url(../fonts/EuropeUnderground_light.ttf);
+}
+
+@font-face {
+  font-family: Europe Underground Bold;
+  src: url(../fonts/EuropeUnderground_black.ttf);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+/*Hides scrollbar*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  margin: 0;
+  background-color: #fffefb;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*BEGIN Header styling */
+
+header {
+  width: 100%;
+  margin-top: -2px;
+  position: fixed;
+  z-index: 1;
+}
+
+h1 {
+  font-family: Europe Underground;
+  font-size: 1.9em;
+  padding-left: 15px;
+  margin: 9px 12px 4px 0;
+  display: inline-block;
+  letter-spacing: .9px;
+}
+
+h1 > a {
+  color: #53565a;
+  transition: color 0.1s ease;
+}
+
+h1 > a:hover {
+  color: white;
+}
+
+nav {
+  width: 100%;
+  background-color: #7fd3ee;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-top: 1px;
+}
+
+nav > a {
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #fefefe;
+  width: 12%;
+  display: inline-block;
+  margin-top: -3px;
+  margin-bottom: -2px;
+  transition: background-color 0.2s ease;
+  padding-top: 11px;
+  padding-bottom: 14px;
+  float: right;
+}
+
+nav > a:hover {
+  color: #7fd3ee;
+  background-color: white;
+}
+
+/*END Header styling*/
+
+main.container {
+  width: 100%;
+}
+
+/*BEGIN About Me styling*/
+
+section.about-me {
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 130px;
+}
+
+img {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+}
+
+ul {
+  width: 50%;
+  display: block;
+  float: right;
+  list-style: none;
+  margin-top: 160px;
+  margin-right: 9%;
+  padding-left: 0px;
+}
+
+li {
+  font-size: 2.1em;
+  font-family: Gill Sans;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+/*END About Me styling*/
+
+/*BEGIN Portfolio styling*/
+
+.port-container {
+  width: 100%;
+}
+
+.port-item {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  margin: 0 -4px -4px 0;
+}
+
+#communicant-img {
+  background: url(../images/Communicant.png) no-repeat center center;
+  background-size: cover;
+}
+
+.port-overlay {
+  width: 100%;
+  height: 300px;
+  margin: 0 -4px -4px 0;
+  background-color: #7fd3ee;
+  opacity: .2;
+  transition: opacity 0.2s ease;
+}
+
+.port-item:hover > .port-overlay {
+  opacity: 0;
+}
+
+/*END Portfolio styling*/
+
+/*BEGIN Resume styling*/
+
+.resume-pdf {
+  width: 80%;
+  margin: 48px 0px 0px 10%;
+}
+
+/*END Resume styling*/
+
+/*BEGIN Contact Form*/
+
+h2 {
+  margin: 0px 0px;
+  padding-top: 65px;
+  font-size: 2em;
+  font-family: Gill Sans;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact-icons {
+  width: 54%;
+  margin-left: 23%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.contact-icons > a {
+  text-decoration: none;
+  color: #7fd3ee;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 1.5% ;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid white;
+  transition: transform .3s ease;
+}
+
+.contact-icons > a:hover {
+  border: 1px solid #7fd3ee;
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+a > i {
+  padding: 26px 0px 0px 2px;
+}
+
+.direct-con {
+  margin: -62px 0 0 25%;
+  width: 50%;
+  height: 562px;
+  overflow: hidden;
+}
+
+.contact-form {
+  margin-top: 35px;
+  background-color: #ecf4f7;
+  padding: 12px 18px 7px 14px;
+}
+
+.contact-form > label {
+  font-size: 1.4em;
+  font-family: Gill Sans;
+  font-weight: 300;
+  color: gray;
+  padding-left: 5px;
+}
+
+.contact-form > input, .contact-form > textarea {
+  margin: 5px 0 10px 0;
+  width: 100%;
+  font-family: Gill Sans;
+  font-size: 18pt;
+  font-weight: lighter;
+  border: 1px solid white;
+  border-bottom: 1px dashed #53565a;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.contact-form > input:focus, .contact-form > textarea:focus {
+  outline: none;
+}
+
+.contact-form > input {
+  height: 30px;
+}
+
+.contact-form > textarea {
+  height: 120px;
+}
+
+.contact-submit {
+  height: 40px;
+  width: 20%;
+  margin: 0 0 7px 40%;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.4em;
+  font-family: Gill Sans;
+  font-weight: lighter;
+  color: white;
+  background-color: #7fd3ee;
+  transition: all .2s ease;
+}
+
+.contact-submit:hover {
+  color: #7fd3ee;
+  background-color: white;
+  cursor: pointer;
+}
+
+.contact-submit:active {
+  border: 1.5px inset;
+}
+
+.contact-submit:focus {
+  outline: none;
+}
+
+/*END Contact Form*/
+
+/*Fade-In animation*/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    } to {
+      opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity:0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+    animation-delay: .1s;
+}
+
+/*SRC: https://coderwall.com/p/inx9gw/smooth-sexy-page-load-css3-animations*/
