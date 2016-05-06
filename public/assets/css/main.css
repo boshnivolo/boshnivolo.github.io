@@ -87,17 +87,29 @@ main.container {
   width: 100%;
 }
 
+/*BEGIN Home styling*/
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/Geometric_Background.png) no-repeat center center;
+  background-size: cover;
+}
+
+/*END Home styling*/
+
 /*BEGIN About Me styling*/
 
 section.about-me {
   width: 90%;
+  height: 80vh;
   margin-left: 5%;
   background-color: white;
   border-radius: 5px;
   padding-top: 130px;
 }
 
-img {
+.about-me > img {
   height: 340px;
   width: 340px;
   border-radius: 50%;
@@ -129,12 +141,14 @@ li {
 
 .port-container {
   width: 100%;
+  padding-top: 45px;
 }
 
 .port-item {
   display: inline-block;
-  width: 25%;
-  height: 300px;
+  position: relative;
+  width: 33.333%;
+  height: 345px;
   margin: 0 -4px -4px 0;
 }
 
@@ -143,17 +157,77 @@ li {
   background-size: cover;
 }
 
+#website-img {
+  background: url(../images/Port_Logo.png) no-repeat center center;
+  background-size: 40%;
+}
+
+#durham-murial {
+  background: url(../images/Murial1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#buffalo-mountain {
+  background: url(../images/buffalo_mountain.png) no-repeat center center;
+  background-size: cover;
+}
+
+#commissioned-logos {
+  background: url(../images/Logos_BG.png) no-repeat center center;
+  background-size: cover;
+}
+
+#appointments-app {
+  background: url(../images/Appointments.jpg) no-repeat;
+  background-size: cover;
+}
+
 .port-overlay {
+  opacity: 0;
   width: 100%;
-  height: 300px;
+  height: 345px;
   margin: 0 -4px -4px 0;
-  background-color: #7fd3ee;
-  opacity: .2;
+  background-color: black;
   transition: opacity 0.2s ease;
 }
 
 .port-item:hover > .port-overlay {
+  opacity: .5;
+}
+
+.port-item:hover > i {
+  opacity: 1;
+}
+
+.fa-eye:before {
+  margin-left: 1.9em;
+}
+
+.hover-text {
+  width: 80%;
+  position: absolute;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  font-family: Europe Underground;
+  margin: -60% 0 0 10%;
   opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.hover-text > h3 {
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+
+.hover-text > a > i {
+  font-size: 3em;
+  text-decoration: none;
+  color: white;
+}
+
+.port-item:hover > .hover-text {
+  opacity: 1;
 }
 
 /*END Portfolio styling*/
@@ -205,7 +279,7 @@ h2 {
   transform: scale(1.07);
 }
 
-a > i {
+.contact-icons > a > i {
   padding: 26px 0px 0px 2px;
 }
 
