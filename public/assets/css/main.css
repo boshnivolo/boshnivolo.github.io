@@ -96,6 +96,32 @@ main.container {
   background-size: cover;
 }
 
+.welcome-container {
+  position: relative;
+  border-radius: 5px;
+  width: 80%;
+  height: 60vh;
+  margin-left: 10%;
+  top: 24vh;
+  background-color: white;
+  opacity: .7;
+}
+
+.welcome-text > h1 {
+  position: absolute;
+  font-family: Gill Sans;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 10em;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  top: 42%;
+  text-align: center;
+  color: #53565a;
+  z-index: 3;
+}
+
 /*END Home styling*/
 
 /*BEGIN About Me styling*/
